@@ -97,15 +97,17 @@ body {
 
 .hero-section {
     display: flex;
+    gap: 20px;
     padding-top: 100px;
     padding-bottom: 100px;
-    gap: 30px;
 }
 
 .hero-left {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    justify-content: center;
+    gap: 25px;
 }
 
 .hero-left .main-text {
@@ -117,6 +119,7 @@ body {
 .hero-left .main-text,
 .hero-left .secondary-text {
     max-width: 450px;
+    min-width: 450px;
 }
 
 #signup-btn {
@@ -136,14 +139,19 @@ body {
     color: #3882f6;
 }
 
-.placeholder-image {
+.hero-img-container {
     flex: 1;
-    background-color: antiquewhite;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    padding: 20px;
 }
+
+.hero-img-container img {
+    min-height: 100%;
+    max-width: 100%;
+    object-fit: fill;
+}
+
 
 .footer {
     display: flex;
