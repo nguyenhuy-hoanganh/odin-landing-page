@@ -46,5 +46,108 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* CSS reset ends here */
+/* ========================================= */
+
+/* Begin CSS styling */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.top-section, .footer {
+    background-color: #1f2937;
+}
+
+.top-section {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li a,
+.hero-left .secondary-text,
+.footer {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.hero-left .main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-left .main-text,
+.hero-left .secondary-text {
+    max-width: 450px;
+}
+
+#signup-btn {
+    border-radius: 8px;
+    border: 0;
+    width: 130px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #f9faf8;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#signup-btn:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+.placeholder-image {
+    flex: 1;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+}
