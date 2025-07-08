@@ -167,12 +167,42 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .information-section .image-gallery {
     display: flex;
+    margin-bottom: 120px;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image-gallery .thumbnail-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    width: 200px;
+}
+
+.image-gallery .thumbnail-container .thumbnail {
+    height: 200px;
+    width: 200px;
+}
+
+.thumbnail-container .thumbnail img {
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+}
+
+.image-gallery .thumbnail-container .subtext {
+    text-align: center;
+    color: #1f2937;
 }
 
 .footer {
