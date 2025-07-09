@@ -127,7 +127,7 @@ body {
     min-width: 450px;
 }
 
-#signup-btn {
+.hero-section .signup-button {
     border-radius: 8px;
     border: 0;
     width: 130px;
@@ -139,16 +139,13 @@ body {
     cursor: pointer;
 }
 
-#signup-btn:hover {
+.hero-section .signup-button:hover {
     background-color: #f9faf8;
     color: #3882f6;
 }
 
 .hero-img-container {
     flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     min-width: 350px;
 }
 
@@ -233,6 +230,44 @@ body {
     position: relative;
     right: 35px;
     margin-top: 10px;
+}
+
+.calltoaction-section .banner {
+    background-color: #3882f6;
+    padding: 60px 100px 60px 100px;
+    margin: 120px 150px 120px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calltoaction-section .banner .main-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calltoaction-section .banner .secondary-text {
+    color: #e5e7eb;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.calltoaction-section .signup-button {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 150px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.calltoaction-section .signup-button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
 }
 
 .footer {
