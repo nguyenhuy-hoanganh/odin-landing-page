@@ -234,6 +234,7 @@ body {
 
 .calltoaction-section .banner {
     background-color: #3882f6;
+    border-radius: 8px; 
     padding: 60px 100px 60px 100px;
     margin: 120px 150px 120px 150px;
     display: flex;
