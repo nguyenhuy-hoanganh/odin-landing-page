@@ -238,6 +238,7 @@ body {
     margin: 120px 150px 120px 150px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .calltoaction-section .banner .main-text {
@@ -254,7 +255,6 @@ body {
 
 .calltoaction-section .signup-button {
     box-sizing: border-box;
-    display: inline-block;
     width: 150px;
     border: 2px solid #f9faf8;
     border-radius: 8px;
